@@ -2,7 +2,7 @@
 
 ## Link to Live Project:
 
-[Deployed link](https://google.com)
+[Deployed link](https://catalyst-weather-app.firebaseapp.com/)
 
 ### Project setup
 ```
