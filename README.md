@@ -15,12 +15,12 @@ _In your src folder, create a lib folder and inside that, make an API.js file. I
 const API_KEY = 'YOUR SECRET API KEY YOU GET WHEN YOU SIGN UP FOR A KEY';
 
 function getCoordinatesFromCityName(location) {
-    return fetch(`http://api.openweathermap.org/data/2.5/find?q=${location}&type=like&units=imperial&appid=${API_KEY}`)
+    return fetch(`https://api.openweathermap.org/data/2.5/find?q=${location}&type=like&units=imperial&appid=${API_KEY}`)
     .then(response => response.json());
 }
 
 function getForecast(lat=39.7392, lng=-104.9848) {
-    return fetch(`http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lng}&units=imperial&appid=${API_KEY}`)
+    return fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lng}&units=imperial&appid=${API_KEY}`)
         .then(response => response.json());
 }
 

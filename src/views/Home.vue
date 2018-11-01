@@ -16,7 +16,7 @@
     <div class="card-header">Forecast for {{forecast.city.name}}</div>
     <div class="card-body">
       <h4 class="card-title">{{forecast.list[day].weather[0].description}}</h4>
-      <p class="card-text"><img v-bind:src="`http://openweathermap.org/img/w/${forecast.list[day].weather[0].icon}.png`"><br>
+      <p class="card-text"><img v-bind:src="`https://openweathermap.org/img/w/${forecast.list[day].weather[0].icon}.png`"><br>
       </p>
       <p class="card-text">{{forecast.list[day].main.temp}}&deg;
       </p>
