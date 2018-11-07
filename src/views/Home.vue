@@ -63,3 +63,10 @@ methods: {
   },
 };
 </script>
+
+<style lang="scss">
+$im-a-contrived-variable-name: inherit;
+.card-title {
+  color: $im-a-contrived-variable-name;
+}
+</style>
